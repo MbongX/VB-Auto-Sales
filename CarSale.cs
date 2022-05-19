@@ -88,7 +88,7 @@ namespace VB_Auto_Sales
 
         private void CarSale_Load(object sender, EventArgs e)
         {
-
+            panel1.Hide();
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -157,6 +157,14 @@ namespace VB_Auto_Sales
             Total.Clear();
             TradeIn.Clear();
             AmountDue.Clear();
+            //unchecking the checkboxes
+            acc_Stereo.Checked = false;
+            acc_Leather.Checked = false;
+            acc_Nav.Checked = false;
+            //unchecking the radio buttons
+            fin_Standard.Checked = false;
+            fin_Pearl.Checked = false;
+            fin_Detail.Checked = false;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -214,7 +222,7 @@ namespace VB_Auto_Sales
 
         private void exitToLoginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -237,7 +245,35 @@ namespace VB_Auto_Sales
                  Form3 SparkTables = new Form3();
             this.Hide();
             SparkTables.ShowDialog(); //-> New form overlays the prev form
-            this.Show(); // if you don't want the form to overlay you can omit the above code then include this one only
+            this.Show(); 
+        }
+
+        private void clearAllFieldsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            button2_Click(sender, e);
+        }
+
+        private void vehicleSalesFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //vehicle sales form
+            this.Show();
+            
+        }
+
+        private void carwashToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 CarWash = new Form4();
+            this.Hide();
+            CarWash.ShowDialog();
+            this.Show();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form5 AboutVB = new Form5();
+            this.Hide();
+            AboutVB.ShowDialog(); 
+            this.Show();
         }
     }
 }

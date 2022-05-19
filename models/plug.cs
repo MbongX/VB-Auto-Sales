@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace VB_Auto_Sales.models
 {
-    class plug
+   class plug
     {
-        private string vbBrand,Brand_A,Brand_B,Brand_C = "";
+        public string vbBrand,Brand_A,Brand_B,Brand_C = "";
         public plug(string vb,string A, string B,string C) {
             this.vbBrand = vb;
             this.Brand_A = A;
@@ -18,10 +18,10 @@ namespace VB_Auto_Sales.models
         plug() { }
 
 
-        string getVB_Brand() => this.vbBrand;
-        string getBrand_A() => this.Brand_A;
-        string getBrand_B() => this.Brand_B;
-        string getBrand_C() => this.Brand_C;
+        public string getVB_Brand() => this.vbBrand;
+        public string getBrand_A() => this.Brand_A;
+        public string getBrand_B() => this.Brand_B;
+        public string getBrand_C() => this.Brand_C;
 
     }
 }

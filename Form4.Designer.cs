@@ -1,6 +1,6 @@
 ﻿namespace VB_Auto_Sales
 {
-    partial class CarSale
+    partial class Form4
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lab_Username = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.AmountDue = new System.Windows.Forms.TextBox();
-            this.TradeIn = new System.Windows.Forms.TextBox();
-            this.Tax = new System.Windows.Forms.TextBox();
-            this.Subtotal = new System.Windows.Forms.TextBox();
-            this.Acc_finish = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.acc_Nav = new System.Windows.Forms.CheckBox();
-            this.acc_Leather = new System.Windows.Forms.CheckBox();
-            this.acc_Stereo = new System.Windows.Forms.CheckBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.fin_Detail = new System.Windows.Forms.RadioButton();
-            this.fin_Pearl = new System.Windows.Forms.RadioButton();
-            this.fin_Standard = new System.Windows.Forms.RadioButton();
-            this.Total = new System.Windows.Forms.TextBox();
-            this.CarSalePrice = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.btn_Calculate = new System.Windows.Forms.Button();
-            this.btn_Clear = new System.Windows.Forms.Button();
-            this.btn_Print = new System.Windows.Forms.Button();
-            this.btn_Exit = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,290 +71,19 @@
             this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToLoginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lab_Username
-            // 
-            this.lab_Username.AutoSize = true;
-            this.lab_Username.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
-            this.lab_Username.Location = new System.Drawing.Point(248, 42);
-            this.lab_Username.Name = "lab_Username";
-            this.lab_Username.Size = new System.Drawing.Size(412, 22);
-            this.lab_Username.TabIndex = 67;
-            this.lab_Username.Text = "Venda Boulevard Auto Center Vehicle Sales Point";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label7.Location = new System.Drawing.Point(483, 323);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 19);
-            this.label7.TabIndex = 62;
-            this.label7.Text = "Amount Due:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label6.Location = new System.Drawing.Point(438, 289);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(145, 19);
-            this.label6.TabIndex = 61;
-            this.label6.Text = "Trade-in Allowance:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label5.Location = new System.Drawing.Point(534, 256);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 19);
-            this.label5.TabIndex = 60;
-            this.label5.Text = "Total:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label4.Location = new System.Drawing.Point(462, 224);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 19);
-            this.label4.TabIndex = 59;
-            this.label4.Text = "Sales Tax (15%):";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label3.Location = new System.Drawing.Point(512, 192);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 19);
-            this.label3.TabIndex = 58;
-            this.label3.Text = "Subtotal:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label2.Location = new System.Drawing.Point(413, 159);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(170, 19);
-            this.label2.TabIndex = 57;
-            this.label2.Text = "Accessories And Finish:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label1.Location = new System.Drawing.Point(472, 114);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 19);
-            this.label1.TabIndex = 56;
-            this.label1.Text = "Car Sale Price:";
-            // 
-            // AmountDue
-            // 
-            this.AmountDue.Location = new System.Drawing.Point(603, 320);
-            this.AmountDue.Name = "AmountDue";
-            this.AmountDue.ReadOnly = true;
-            this.AmountDue.Size = new System.Drawing.Size(249, 20);
-            this.AmountDue.TabIndex = 55;
-            // 
-            // TradeIn
-            // 
-            this.TradeIn.Location = new System.Drawing.Point(603, 288);
-            this.TradeIn.Name = "TradeIn";
-            this.TradeIn.Size = new System.Drawing.Size(249, 20);
-            this.TradeIn.TabIndex = 54;
-            // 
-            // Tax
-            // 
-            this.Tax.Location = new System.Drawing.Point(603, 223);
-            this.Tax.Name = "Tax";
-            this.Tax.ReadOnly = true;
-            this.Tax.Size = new System.Drawing.Size(249, 20);
-            this.Tax.TabIndex = 52;
-            // 
-            // Subtotal
-            // 
-            this.Subtotal.Location = new System.Drawing.Point(603, 191);
-            this.Subtotal.Name = "Subtotal";
-            this.Subtotal.ReadOnly = true;
-            this.Subtotal.Size = new System.Drawing.Size(249, 20);
-            this.Subtotal.TabIndex = 51;
-            // 
-            // Acc_finish
-            // 
-            this.Acc_finish.Location = new System.Drawing.Point(603, 158);
-            this.Acc_finish.Name = "Acc_finish";
-            this.Acc_finish.ReadOnly = true;
-            this.Acc_finish.Size = new System.Drawing.Size(249, 20);
-            this.Acc_finish.TabIndex = 50;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.acc_Nav);
-            this.groupBox1.Controls.Add(this.acc_Leather);
-            this.groupBox1.Controls.Add(this.acc_Stereo);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.groupBox1.Location = new System.Drawing.Point(78, 103);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(249, 118);
-            this.groupBox1.TabIndex = 48;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Accessories";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // acc_Nav
-            // 
-            this.acc_Nav.AutoSize = true;
-            this.acc_Nav.Location = new System.Drawing.Point(17, 79);
-            this.acc_Nav.Name = "acc_Nav";
-            this.acc_Nav.Size = new System.Drawing.Size(173, 23);
-            this.acc_Nav.TabIndex = 2;
-            this.acc_Nav.Text = "Computer Navigation";
-            this.acc_Nav.UseVisualStyleBackColor = true;
-            // 
-            // acc_Leather
-            // 
-            this.acc_Leather.AutoSize = true;
-            this.acc_Leather.Location = new System.Drawing.Point(17, 56);
-            this.acc_Leather.Name = "acc_Leather";
-            this.acc_Leather.Size = new System.Drawing.Size(136, 23);
-            this.acc_Leather.TabIndex = 1;
-            this.acc_Leather.Text = "Leather Interior";
-            this.acc_Leather.UseVisualStyleBackColor = true;
-            // 
-            // acc_Stereo
-            // 
-            this.acc_Stereo.AutoSize = true;
-            this.acc_Stereo.Location = new System.Drawing.Point(17, 33);
-            this.acc_Stereo.Name = "acc_Stereo";
-            this.acc_Stereo.Size = new System.Drawing.Size(120, 23);
-            this.acc_Stereo.TabIndex = 0;
-            this.acc_Stereo.Text = "Stereo System";
-            this.acc_Stereo.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.fin_Detail);
-            this.groupBox2.Controls.Add(this.fin_Pearl);
-            this.groupBox2.Controls.Add(this.fin_Standard);
-            this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.groupBox2.Location = new System.Drawing.Point(78, 240);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(249, 108);
-            this.groupBox2.TabIndex = 49;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Exterior Finish";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
-            // 
-            // fin_Detail
-            // 
-            this.fin_Detail.AutoSize = true;
-            this.fin_Detail.Location = new System.Drawing.Point(17, 80);
-            this.fin_Detail.Name = "fin_Detail";
-            this.fin_Detail.Size = new System.Drawing.Size(172, 23);
-            this.fin_Detail.TabIndex = 2;
-            this.fin_Detail.TabStop = true;
-            this.fin_Detail.Text = "Customized Detailing";
-            this.fin_Detail.UseVisualStyleBackColor = true;
-            this.fin_Detail.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
-            // 
-            // fin_Pearl
-            // 
-            this.fin_Pearl.AutoSize = true;
-            this.fin_Pearl.Location = new System.Drawing.Point(17, 57);
-            this.fin_Pearl.Name = "fin_Pearl";
-            this.fin_Pearl.Size = new System.Drawing.Size(89, 23);
-            this.fin_Pearl.TabIndex = 1;
-            this.fin_Pearl.TabStop = true;
-            this.fin_Pearl.Text = "Pearlized";
-            this.fin_Pearl.UseVisualStyleBackColor = true;
-            this.fin_Pearl.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
-            // 
-            // fin_Standard
-            // 
-            this.fin_Standard.AutoSize = true;
-            this.fin_Standard.Location = new System.Drawing.Point(17, 33);
-            this.fin_Standard.Name = "fin_Standard";
-            this.fin_Standard.Size = new System.Drawing.Size(88, 23);
-            this.fin_Standard.TabIndex = 0;
-            this.fin_Standard.TabStop = true;
-            this.fin_Standard.Text = "Standard";
-            this.fin_Standard.UseVisualStyleBackColor = true;
-            this.fin_Standard.CheckedChanged += new System.EventHandler(this.ExtFinishRButton_CheckedChanged);
-            // 
-            // Total
-            // 
-            this.Total.Location = new System.Drawing.Point(603, 255);
-            this.Total.Name = "Total";
-            this.Total.ReadOnly = true;
-            this.Total.Size = new System.Drawing.Size(249, 20);
-            this.Total.TabIndex = 53;
-            // 
-            // CarSalePrice
-            // 
-            this.CarSalePrice.Location = new System.Drawing.Point(603, 113);
-            this.CarSalePrice.Name = "CarSalePrice";
-            this.CarSalePrice.Size = new System.Drawing.Size(249, 20);
-            this.CarSalePrice.TabIndex = 47;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(716, 136);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(0, 19);
-            this.label9.TabIndex = 68;
-            // 
-            // btn_Calculate
-            // 
-            this.btn_Calculate.Location = new System.Drawing.Point(29, 15);
-            this.btn_Calculate.Name = "btn_Calculate";
-            this.btn_Calculate.Size = new System.Drawing.Size(147, 33);
-            this.btn_Calculate.TabIndex = 63;
-            this.btn_Calculate.Text = "Calculate";
-            this.btn_Calculate.UseVisualStyleBackColor = true;
-            this.btn_Calculate.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btn_Clear
-            // 
-            this.btn_Clear.Location = new System.Drawing.Point(218, 15);
-            this.btn_Clear.Name = "btn_Clear";
-            this.btn_Clear.Size = new System.Drawing.Size(147, 33);
-            this.btn_Clear.TabIndex = 64;
-            this.btn_Clear.Text = "Clear";
-            this.btn_Clear.UseVisualStyleBackColor = true;
-            this.btn_Clear.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // btn_Print
-            // 
-            this.btn_Print.Location = new System.Drawing.Point(404, 15);
-            this.btn_Print.Name = "btn_Print";
-            this.btn_Print.Size = new System.Drawing.Size(147, 33);
-            this.btn_Print.TabIndex = 65;
-            this.btn_Print.Text = "Print";
-            this.btn_Print.UseVisualStyleBackColor = true;
-            this.btn_Print.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // btn_Exit
-            // 
-            this.btn_Exit.Location = new System.Drawing.Point(593, 15);
-            this.btn_Exit.Name = "btn_Exit";
-            this.btn_Exit.Size = new System.Drawing.Size(147, 33);
-            this.btn_Exit.TabIndex = 66;
-            this.btn_Exit.Text = "Exit";
-            this.btn_Exit.UseVisualStyleBackColor = true;
-            this.btn_Exit.Click += new System.EventHandler(this.button4_Click);
             // 
             // menuStrip1
             // 
@@ -400,7 +101,7 @@
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.menuStrip1.Size = new System.Drawing.Size(936, 24);
-            this.menuStrip1.TabIndex = 69;
+            this.menuStrip1.TabIndex = 70;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
@@ -623,14 +324,12 @@
             this.claculateToolStripMenuItem.Name = "claculateToolStripMenuItem";
             this.claculateToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.claculateToolStripMenuItem.Text = "Claculate";
-            this.claculateToolStripMenuItem.Click += new System.EventHandler(this.claculateToolStripMenuItem_Click);
             // 
             // calculateToolStripMenuItem
             // 
             this.calculateToolStripMenuItem.Name = "calculateToolStripMenuItem";
             this.calculateToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.calculateToolStripMenuItem.Text = "Calculate";
-            this.calculateToolStripMenuItem.Click += new System.EventHandler(this.calculateToolStripMenuItem_Click);
             // 
             // clearToolStripMenuItem
             // 
@@ -645,7 +344,6 @@
             this.clearAllFieldsToolStripMenuItem.Name = "clearAllFieldsToolStripMenuItem";
             this.clearAllFieldsToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.clearAllFieldsToolStripMenuItem.Text = "Clear all fields";
-            this.clearAllFieldsToolStripMenuItem.Click += new System.EventHandler(this.clearAllFieldsToolStripMenuItem_Click);
             // 
             // printToolStripMenuItem
             // 
@@ -654,12 +352,14 @@
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.printToolStripMenuItem.Text = "Print";
+            this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
             // printStatementToolStripMenuItem
             // 
             this.printStatementToolStripMenuItem.Name = "printStatementToolStripMenuItem";
-            this.printStatementToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.printStatementToolStripMenuItem.Text = "Print Statement";
+            this.printStatementToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.printStatementToolStripMenuItem.Text = "Print Order";
+            this.printStatementToolStripMenuItem.Click += new System.EventHandler(this.printStatementToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -715,55 +415,134 @@
             this.exitToLoginToolStripMenuItem.Name = "exitToLoginToolStripMenuItem";
             this.exitToLoginToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.exitToLoginToolStripMenuItem.Text = "Exit Form";
-            this.exitToLoginToolStripMenuItem.Click += new System.EventHandler(this.exitToLoginToolStripMenuItem_Click);
             // 
-            // panel1
+            // comboBox1
             // 
-            this.panel1.Controls.Add(this.btn_Print);
-            this.panel1.Controls.Add(this.btn_Calculate);
-            this.panel1.Controls.Add(this.btn_Clear);
-            this.panel1.Controls.Add(this.btn_Exit);
-            this.panel1.Location = new System.Drawing.Point(83, 388);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(761, 64);
-            this.panel1.TabIndex = 70;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(435, 140);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(336, 21);
+            this.comboBox1.TabIndex = 71;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // CarSale
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(158, 143);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(190, 19);
+            this.label1.TabIndex = 72;
+            this.label1.Text = "Choose your package type :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(278, 197);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 19);
+            this.label2.TabIndex = 73;
+            this.label2.Text = "Interior :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(270, 245);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(78, 19);
+            this.label3.TabIndex = 74;
+            this.label3.Text = "Exterior : ";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(435, 195);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(336, 21);
+            this.comboBox2.TabIndex = 75;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(435, 243);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(336, 21);
+            this.comboBox3.TabIndex = 76;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(245, 61);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(395, 22);
+            this.label4.TabIndex = 77;
+            this.label4.Text = "A carwash at the Venda Boulevard Auto Center";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(491, 364);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(189, 68);
+            this.button1.TabIndex = 78;
+            this.button1.Text = "Print Order";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(223, 364);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(189, 68);
+            this.button2.TabIndex = 79;
+            this.button2.Text = "Exit";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(435, 296);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(336, 21);
+            this.comboBox4.TabIndex = 80;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(269, 295);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 19);
+            this.label5.TabIndex = 81;
+            this.label5.Text = "Fragrance";
+            // 
+            // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::VB_Auto_Sales.Properties.Resources.qZ29I2k_grunge_wallpaper;
             this.ClientSize = new System.Drawing.Size(936, 489);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.lab_Username);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
+            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.AmountDue);
-            this.Controls.Add(this.TradeIn);
-            this.Controls.Add(this.Tax);
-            this.Controls.Add(this.Subtotal);
-            this.Controls.Add(this.Acc_finish);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.Total);
-            this.Controls.Add(this.CarSalePrice);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "CarSale";
-            this.Text = "CarSale";
-            this.Load += new System.EventHandler(this.CarSale_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.Name = "Form4";
+            this.Text = "Form4";
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -771,47 +550,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lab_Username;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox AmountDue;
-        private System.Windows.Forms.TextBox TradeIn;
-        private System.Windows.Forms.TextBox Tax;
-        private System.Windows.Forms.TextBox Subtotal;
-        private System.Windows.Forms.TextBox Acc_finish;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox acc_Nav;
-        private System.Windows.Forms.CheckBox acc_Leather;
-        private System.Windows.Forms.CheckBox acc_Stereo;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton fin_Detail;
-        private System.Windows.Forms.RadioButton fin_Pearl;
-        private System.Windows.Forms.RadioButton fin_Standard;
-        private System.Windows.Forms.TextBox Total;
-        private System.Windows.Forms.TextBox CarSalePrice;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button btn_Calculate;
-        private System.Windows.Forms.Button btn_Clear;
-        private System.Windows.Forms.Button btn_Print;
-        private System.Windows.Forms.Button btn_Exit;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem claculateToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clearToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem calculateToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clearAllFieldsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem navigationToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem vehicleSalesFormToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem autoPartsLookupToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem carwashToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToLoginToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
@@ -832,9 +571,19 @@
         private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem selectAllToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem navigationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem vehicleSalesFormToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem autoPartsLookupToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem carwashToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem customizeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem claculateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calculateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clearToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clearAllFieldsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem printStatementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem contentsToolStripMenuItem;
@@ -842,6 +591,18 @@
         private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToLoginToolStripMenuItem;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label5;
     }
 }
