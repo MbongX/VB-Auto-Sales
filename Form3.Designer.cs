@@ -56,34 +56,34 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(764, 596);
+            this.button3.Location = new System.Drawing.Point(579, 275);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(242, 49);
+            this.button3.Size = new System.Drawing.Size(147, 49);
             this.button3.TabIndex = 20;
             this.button3.Text = "Exit";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(462, 596);
+            this.button2.Location = new System.Drawing.Point(339, 275);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(242, 49);
+            this.button2.Size = new System.Drawing.Size(147, 49);
             this.button2.TabIndex = 19;
             this.button2.Text = "Clear";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(168, 596);
+            this.button1.Location = new System.Drawing.Point(122, 275);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(242, 49);
+            this.button1.Size = new System.Drawing.Size(147, 49);
             this.button1.TabIndex = 18;
             this.button1.Text = "Lookup";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(789, 298);
+            this.textBox2.Location = new System.Drawing.Point(611, 131);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(217, 20);
             this.textBox2.TabIndex = 16;
@@ -91,7 +91,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(837, 252);
+            this.label2.Location = new System.Drawing.Point(608, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 13);
             this.label2.TabIndex = 17;
@@ -102,16 +102,16 @@
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Location = new System.Drawing.Point(64, 101);
+            this.groupBox1.Location = new System.Drawing.Point(40, 58);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(626, 383);
+            this.groupBox1.Size = new System.Drawing.Size(496, 186);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select Brand And Enter Part Number";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(381, 197);
+            this.textBox1.Location = new System.Drawing.Point(238, 73);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(217, 20);
             this.textBox1.TabIndex = 2;
@@ -119,7 +119,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(432, 151);
+            this.label1.Location = new System.Drawing.Point(235, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 13);
             this.label1.TabIndex = 1;
@@ -130,9 +130,9 @@
             this.groupBox2.Controls.Add(this.radioButton3);
             this.groupBox2.Controls.Add(this.radioButton2);
             this.groupBox2.Controls.Add(this.radioButton1);
-            this.groupBox2.Location = new System.Drawing.Point(23, 98);
+            this.groupBox2.Location = new System.Drawing.Point(16, 45);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(273, 229);
+            this.groupBox2.Size = new System.Drawing.Size(184, 130);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Brand";
@@ -140,7 +140,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(29, 175);
+            this.radioButton3.Location = new System.Drawing.Point(18, 74);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(63, 17);
             this.radioButton3.TabIndex = 2;
@@ -151,7 +151,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(29, 114);
+            this.radioButton2.Location = new System.Drawing.Point(18, 51);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(63, 17);
             this.radioButton2.TabIndex = 1;
@@ -162,7 +162,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(29, 51);
+            this.radioButton1.Location = new System.Drawing.Point(18, 28);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(63, 17);
             this.radioButton1.TabIndex = 0;
@@ -174,7 +174,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1127, 725);
+            this.ClientSize = new System.Drawing.Size(901, 368);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);

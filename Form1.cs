@@ -32,10 +32,10 @@ namespace VB_Auto_Sales
         private void button2_Click(object sender, EventArgs e)
         {
             //submit button
-            Form2 vbSales = new Form2();
+            CarSale vbSales = new CarSale();
             this.Hide();
-            vbSales.ShowDialog();
-            this.Show();
+            vbSales.ShowDialog(); //-> New form overlays the prev form
+            this.Show(); // if you don't want the form to overlay you can omit the above code then include this one only
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
