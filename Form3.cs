@@ -37,6 +37,14 @@ namespace VB_Auto_Sales
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            // LOOKUP LOGIC GOES FROM HERE..
+            for (int i = 0; i < plugs.Count; i++) {
+                WriteLine(plugs[i].getBrand_A());
+            }
+        }
     }
 }
 

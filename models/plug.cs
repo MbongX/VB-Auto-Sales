@@ -16,12 +16,9 @@ namespace VB_Auto_Sales.models
             this.Brand_C = C;
         }
         plug() { }
-
-
-        string getVB_Brand() => this.vbBrand;
-        string getBrand_A() => this.Brand_A;
-        string getBrand_B() => this.Brand_B;
-        string getBrand_C() => this.Brand_C;
-
+        public string getVB_Brand() => this.vbBrand;
+        public string getBrand_A() => this.Brand_A;
+        public string getBrand_B() => this.Brand_B;
+        public string getBrand_C() => this.Brand_C;
     }
 }
